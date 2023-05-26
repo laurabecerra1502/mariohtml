@@ -1,0 +1,19 @@
+pipelineJob('retodevops') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    branch('feature')
+                    remote {
+                        url('https://github.com/laurabecerra1502/mario-html.git')
+                    }
+                    scriptPath('jenkinsfile')
+                } 
+            }      
+        }
+
+        triggers {
+            scm('* * * * 1-5')
+        }
+    }
+}                     
