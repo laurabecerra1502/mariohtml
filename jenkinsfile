@@ -5,7 +5,7 @@ pipelineJob('retodevops') {
                 git {
                     branch('feature')
                     remote {
-                        url('https://github.com/laurabecerra1502/mario-html.git')
+                        url('https://github.com/laurabecerra1502/mariohtml.git')
                     }
                     scriptPath('jenkinsfile')
                 } 
