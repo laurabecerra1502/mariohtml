@@ -10,7 +10,7 @@ reto(message: 'Laura Becerra',
     hosturl: 'http://sonarqube:9000',
     login: 'admin',
     password: '1234',
-    buildimage: 'reto2')
+    buildimage: 'retof2')
 
 
 
