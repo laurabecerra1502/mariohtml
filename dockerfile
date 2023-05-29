@@ -1,7 +1,3 @@
-FROM node:latest
+FROM nginx:latest
 
-WORKDIR /app
-
-COPY . .
-
-EXPOSE 5500
+COPY . /usr/share/nginx/html/
