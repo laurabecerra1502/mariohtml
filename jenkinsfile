@@ -1,4 +1,4 @@
-@Library('SonarQube@feature') _
+/*@Library('SonarQube@feature') _
 
 reto(message: 'Laura Becerra', 
     application: 'Aplicacion WebPage', 
@@ -10,7 +10,11 @@ reto(message: 'Laura Becerra',
     hosturl: 'http://sonarqube:9000',
     login: 'admin',
     password: '1234',
-    buildimage: 'retof2')
+    buildimage: 'retof2') */
+
+@Library('devops@feature') _
+ 
+libdevops(scmUrl: 'https://github.com/laurabecerra1502/mariohtml.git')
 
 
 
